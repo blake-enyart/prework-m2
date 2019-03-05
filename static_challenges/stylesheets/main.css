@@ -1,0 +1,90 @@
+body {
+  background: url('../images/1.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.empty-space {
+  float: left;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+}
+
+.main-layout {
+  float: right;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-layout header {
+  height: 50px;
+  background-color: rgb(54, 53, 53);
+}
+
+.main-layout header h2 {
+  font-size: 24;
+  float: left;
+  padding: 12px;
+}
+
+.main-layout header ul {
+  float: right;
+  padding: 12px;
+  margin-top: 5px;
+}
+
+.main-layout nav {
+  background-color: rgb(203, 91, 10);
+}
+
+.main-layout nav ul li {
+  display: inline-block;
+  padding: 5px 13.2%;
+}
+
+.text {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 10;
+}
+
+.text h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.three-col {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 32.9%;
+  height: auto;
+  padding: 0 15px;
+  /* padding: 0 10px */
+}
+
+.three-col h2 {
+  padding-top: 25px;
+  font-size: 10;
+  font-weight: bold;
+}
+
+.three-col img {
+  height: 150px;
+  width: 200px;
+  margin: 5px 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  width: 48%;
+  padding: 0 15px
+}
