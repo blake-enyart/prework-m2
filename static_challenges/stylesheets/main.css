@@ -1,17 +1,12 @@
 body {
   background: url('../images/1.jpg') no-repeat;
   background-size: 100%;
-}
-
-.empty-space {
-  float: left;
-  display: inline-block;
-  height: 100%;
-  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .main-layout {
-  float: right;
   display: inline-block;
   height: 100%;
   width: 50%;
